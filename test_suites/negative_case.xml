@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Pet Swagger">
+
+    <test name="Insider Negative API Test Case">
+        <groups>
+            <run>
+                <include name="negative_case"> </include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="tests.PetTests"/>
+        </classes>
+    </test>
+
+</suite>
